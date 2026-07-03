@@ -1,9 +1,9 @@
 cask "nod" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.2"
-  sha256 arm:   "61532813a7cc99e061c1a00db7d2d7bc1a4748c4c42214c8ecfa09464344095f",
-         intel: "c083c72d8dc0b78cb5e28dd1b208c1c3ad9ecc41a325d1b4b8593fc2bb65f560"
+  version "0.1.3"
+  sha256 arm:   "0a39c22d6ded64718315427a636a05df3ac79c9405da062f2efe71e468d284b9",
+         intel: "c68776dad1751b468af1cf8745bab585e6cc95d369ee9f0d53c8f8bab980aed4"
 
   url "https://github.com/PauliusKrutkis/pr-flow/releases/download/v#{version}/Nod_#{version}_#{arch}.dmg"
   name "Nod"
