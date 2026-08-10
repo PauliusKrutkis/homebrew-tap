@@ -1,14 +1,14 @@
 cask "nod" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.0"
-  sha256 arm:   "c1619a635b4763ad178125ed1666d88f35029005a41981eba96204fff9787f1c",
-         intel: "e5a8f3e54578d4cce2dc608d3c026959b34c8b30a8aa7ecdce6fbbb161eecedb"
+  version "0.5.0"
+  sha256 arm:   "910c1fad995c9826ffd14cef2c92b9cb4d020d8638045098b9539a171d540f6d",
+         intel: "4c17720a898fa70c3660bcc84d77d72ac9c9ef72c90059eeea4ed452111b9e94"
 
-  url "https://github.com/PauliusKrutkis/pr-flow/releases/download/v#{version}/Nod_#{version}_#{arch}.dmg"
+  url "https://github.com/PauliusKrutkis/nod/releases/download/v#{version}/Nod_#{version}_#{arch}.dmg"
   name "Nod"
   desc "Keyboard-first code review for GitHub and GitLab"
-  homepage "https://github.com/PauliusKrutkis/pr-flow"
+  homepage "https://github.com/PauliusKrutkis/nod"
 
   livecheck do
     url :url
